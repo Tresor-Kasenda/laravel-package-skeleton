@@ -19,7 +19,7 @@ This package helps you to create easily laravel packages
 composer create-project --prefer-source scott/laravel-skeleton PackageName
 ```
 
- Keep a modern codebase with **Pint**:
+🎄 Keep a modern codebase with **Pint**:
 ```bash
 composer pint
 ```
