@@ -1,0 +1,62 @@
+{
+    "name": "scott/laravel-skeleton",
+    "description": "A Skeleton can helps to create easyly a new package for laravel",
+    "keywords": [
+        "php",
+        "laravel",
+        "skeleton",
+        "package"
+    ],
+    "homepage": "https://github.com/spatie/laravel-blade-comments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tresor-Kasenda",
+            "email": "scotttresor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-package-tools": "^1.15.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.10.1",
+        "pestphp/pest": "^2.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scott\\LaravelSkeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scott\\LaravelSkeleton\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "pint": "pint",
+        "pest": "./vendor/bin/pest",
+        "test:pint": "pint --test",
+        "test:pest": "pest --colors=always",
+        "test": [
+            "@test:pint",
+            "@test:pest"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scott\\LaravelSkeleton\\LaravelSkeletonServiceProvider"
+            ]
+        }
+    }
+}
