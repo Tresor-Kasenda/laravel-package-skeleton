@@ -1,12 +1,7 @@
 {
     "name": "scott/laravel-skeleton",
     "description": "A Skeleton can helps to create easyly a new package for laravel",
-    "keywords": [
-        "php",
-        "laravel",
-        "skeleton",
-        "package"
-    ],
+    "keywords": ["php", "laravel", "skeleton", "package"],
     "homepage": "https://github.com/Tresor-Kasenda/laravel-skeleton",
     "license": "MIT",
     "authors": [

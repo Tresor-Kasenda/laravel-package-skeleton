@@ -16,7 +16,7 @@ This package helps you to create easily laravel packages
 
 
 ```bash
-composer create-project --prefer-source scott/laravel-skeleton PackageName
+composer create-project --prefer-dist scott/laravel-skeleton PackageName
 ```
 
 🎄 Keep a modern codebase with **Pint**:
