@@ -45,7 +45,7 @@
     "scripts": {
         "pint": "pint",
         "pest": "./vendor/bin/pest",
-        "test:pint": "pint --test",
+        "test:pint": "pint",
         "test:pest": "pest --colors=always",
         "test": [
             "@test:pint",
